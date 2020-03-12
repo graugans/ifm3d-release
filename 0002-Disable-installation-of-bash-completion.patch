@@ -1,4 +1,4 @@
-From 7ab6be48d82a60a279702e0d17497beaea30b92f Mon Sep 17 00:00:00 2001
+From 1b0c3edb72dcd3bd5f0aff2e4862cfcb8bc7436d Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 14:05:24 -0500
 Subject: [PATCH 2/9] Disable installation of bash completion

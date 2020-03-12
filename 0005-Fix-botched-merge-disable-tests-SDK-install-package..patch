@@ -1,4 +1,4 @@
-From 70fad3cb8b47bf9c285bad255396cbdd005d1ca9 Mon Sep 17 00:00:00 2001
+From 8ef46fdfc46140e71537eb33ddb65cca1c1a3449 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 13:33:50 -0500
 Subject: [PATCH 5/9] Fix botched merge -- disable tests, SDK, install
