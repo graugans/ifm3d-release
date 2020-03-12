@@ -1,0 +1,70 @@
+From b2e8d45853031f51c83e2eb282d1ba4f08b24f0d Mon Sep 17 00:00:00 2001
+From: Sean Kelly <Sean.Kelly@ifm.com>
+Date: Thu, 12 Mar 2020 19:46:39 +0000
+Subject: [PATCH 4/9] Rebase from 'upstream'
+
+---
+ CMakeLists.txt               | 7 +------
+ modules/tools/CMakeLists.txt | 2 +-
+ package.xml                  | 4 ++--
+ 3 files changed, 4 insertions(+), 9 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a027ae6..52c1403 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -15,7 +15,7 @@ macro_ensure_out_of_source_build(
+   "Please build ${PROJECT_NAME} out-of-source")
+ 
+ # Conditionally turn on/off parts of the build (global-level)
+-option(BUILD_TESTS "Build unit tests" OFF)
++option(BUILD_TESTS "Build unit tests" ON)
+ option(BUILD_MODULE_FRAMEGRABBER "Build the framegrabber module" ON)
+ option(BUILD_MODULE_SWUPDATER "Build the swupdater module" ON)
+ option(BUILD_MODULE_IMAGE "Build the image module" ON)
+@@ -198,8 +198,3 @@ add_custom_target(repackage
+   )
+ 
+ include(CPack)
+-
+-#################################################
+-# Install package.xml for catkin/ROS builds
+-#################################################
+-install(FILES package.xml DESTINATION share/ifm3d-core)
+diff --git a/modules/tools/CMakeLists.txt b/modules/tools/CMakeLists.txt
+index 2080153..e9b2a88 100644
+--- a/modules/tools/CMakeLists.txt
++++ b/modules/tools/CMakeLists.txt
+@@ -15,7 +15,7 @@ endif()
+ ## Process child CMakeLists.txt files
+ ################################################
+ add_subdirectory(src)
+-#add_subdirectory(contrib)
++add_subdirectory(contrib)
+ 
+ ################################################
+ ## Manage installation process
+diff --git a/package.xml b/package.xml
+index 2c929a5..613f505 100644
+--- a/package.xml
++++ b/package.xml
+@@ -21,14 +21,14 @@
+   <build_depend>curl</build_depend>
+   <build_depend>libgoogle-glog-dev</build_depend>
+   <build_depend>libxmlrpc-c++</build_depend>
+-  <build_depend>libopencv-dev</build_depend>
++  <build_depend>opencv3</build_depend>
+ 
+   <!-- Dependencies needed after this package is compiled. -->
+   <exec_depend>libpcl-all-dev</exec_depend>
+   <exec_depend>curl</exec_depend>
+   <exec_depend>libgoogle-glog-dev</exec_depend>
+   <exec_depend>libxmlrpc-c++</exec_depend>
+-  <exec_depend>libopencv-dev</exec_depend>
++  <exec_depend>opencv3</exec_depend>
+ 
+   <doc_depend>doxygen</doc_depend>
+ 
+-- 
+2.17.1
+
