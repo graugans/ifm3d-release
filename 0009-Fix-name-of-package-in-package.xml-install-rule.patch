@@ -1,4 +1,4 @@
-From 718e5dc850e8e218c7f5d023869b76ea56103ff7 Mon Sep 17 00:00:00 2001
+From ebfe8f3199d83306916928169a897bb7b6c2a034 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 16:04:42 -0400
 Subject: [PATCH 9/9] Fix name of package in package.xml install rule
