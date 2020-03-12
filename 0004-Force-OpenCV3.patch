@@ -1,4 +1,4 @@
-From 24aad60ffff59e7410b0964ea8c2edda7930bdfd Mon Sep 17 00:00:00 2001
+From 6c6ff6d1d95c5513597d29ce9dd0166306ca9d37 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 16:32:43 -0400
 Subject: [PATCH 4/5] Force OpenCV3
