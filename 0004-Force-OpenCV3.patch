@@ -1,0 +1,25 @@
+From 6c6ff6d1d95c5513597d29ce9dd0166306ca9d37 Mon Sep 17 00:00:00 2001
+From: Sean Kelly <Sean.Kelly@ifm.com>
+Date: Thu, 12 Mar 2020 16:32:43 -0400
+Subject: [PATCH 4/5] Force OpenCV3
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a027ae6..9c1798a 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -24,7 +24,7 @@ option(BUILD_MODULE_PCICCLIENT "Build the pcicclient module" OFF)
+ option(BUILD_MODULE_TOOLS "Build the tools module" ON)
+ option(BUILD_MODULE_PYBIND11 "Build the python bindings module" OFF)
+ option(BUILD_SDK_PKG "Build install packages for development purposes" ON)
+-option(FORCE_OPENCV3 "Force the build to require OpenCV 3" OFF)
++option(FORCE_OPENCV3 "Force the build to require OpenCV 3" ON)
+ option(FORCE_OPENCV2 "Force the build to require OpenCV 2.4" OFF)
+ option(BUILD_SHARED_LIBS "Build modules as shared libraries" ON)
+ 
+-- 
+2.17.1
+
