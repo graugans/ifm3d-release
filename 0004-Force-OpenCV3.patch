@@ -1,4 +1,4 @@
-From 3b3db24b08514ca319eaa6c935478ade3eeb0479 Mon Sep 17 00:00:00 2001
+From 5b4d464369687deccf3a38d4e2acddf44818ed1e Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 16:32:43 -0400
 Subject: [PATCH 4/5] Force OpenCV3
@@ -8,7 +8,7 @@ Subject: [PATCH 4/5] Force OpenCV3
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index a027ae6..9c1798a 100644
+index b6529bf..2076290 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -24,7 +24,7 @@ option(BUILD_MODULE_PCICCLIENT "Build the pcicclient module" OFF)
