@@ -1,4 +1,4 @@
-From f1a5c21f07183a8458db717d0eae8af5ccc3e629 Mon Sep 17 00:00:00 2001
+From 89297269902b18ce1e0667ea8c5b73a166b0ab73 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 14:59:04 -0500
 Subject: [PATCH 7/9] Enable SDK build
@@ -21,5 +21,5 @@ index 5f545dd..a027ae6 100644
  option(FORCE_OPENCV2 "Force the build to require OpenCV 2.4" OFF)
  option(BUILD_SHARED_LIBS "Build modules as shared libraries" ON)
 -- 
-2.17.1
+2.25.1
 

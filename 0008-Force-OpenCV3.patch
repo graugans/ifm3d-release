@@ -1,4 +1,4 @@
-From c75bc380a527d044f1472493cf0fec406f988a93 Mon Sep 17 00:00:00 2001
+From edc8759a2eb0e41f329bebbcad2ed00df28585aa Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 19:49:23 +0000
 Subject: [PATCH 8/9] Force OpenCV3
@@ -21,5 +21,5 @@ index a027ae6..9c1798a 100644
  option(BUILD_SHARED_LIBS "Build modules as shared libraries" ON)
  
 -- 
-2.17.1
+2.25.1
 

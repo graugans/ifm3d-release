@@ -1,4 +1,4 @@
-From 45701f261add368bbbb64027d3a46fb91759c235 Mon Sep 17 00:00:00 2001
+From e9a3865d3ca30a1a9172e1a007ecd40311acb7d6 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 19:46:39 +0000
 Subject: [PATCH 4/9] Rebase from 'upstream'
@@ -44,5 +44,5 @@ index 2080153..e9b2a88 100644
  ################################################
  ## Manage installation process
 -- 
-2.17.1
+2.25.1
 
