@@ -1,4 +1,4 @@
-From 0b0cb67ed3c54ede47abcd95860a72d76fd86461 Mon Sep 17 00:00:00 2001
+From c5fe1615a60a0d4096d3a48ac9ba92083062c2b2 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 14:59:04 -0500
 Subject: [PATCH 3/4] Enable SDK build
