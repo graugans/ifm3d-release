@@ -1,4 +1,4 @@
-From 65f0c4bc0b578eada7ebebe218573cdcdd489677 Mon Sep 17 00:00:00 2001
+From 09214f5944943da7874ae97b6f5d03f4ab8bc6dd Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 16:33:30 -0400
 Subject: [PATCH 5/5] Fix name of package in package.xml install directive
@@ -18,5 +18,5 @@ index 9c1798a..53ef651 100644
 -install(FILES package.xml DESTINATION share/ifm3d-core)
 +install(FILES package.xml DESTINATION share/ifm3d_core)
 -- 
-2.17.1
+2.25.1
 
