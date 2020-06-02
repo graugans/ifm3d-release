@@ -1,7 +1,7 @@
-From 41f402e60a4dee1ab5b7efa1ba643cfe3c114eb3 Mon Sep 17 00:00:00 2001
+From b618a9332a791f20cab82dd03926cfc923dfd148 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 14:05:24 -0500
-Subject: [PATCH 2/5] Disable installation of bash completion
+Subject: [PATCH 2/4] Disable installation of bash completion
 
 This breaks in catkin install_isolated
 ---

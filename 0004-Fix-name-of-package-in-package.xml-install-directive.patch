@@ -1,14 +1,14 @@
-From 027cd96c504843eabd564b978d71324eb792165c Mon Sep 17 00:00:00 2001
+From f50a4ed5c262b15266bc9729d15ec617c32ac633 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 16:33:30 -0400
-Subject: [PATCH 5/5] Fix name of package in package.xml install directive
+Subject: [PATCH 4/4] Fix name of package in package.xml install directive
 
 ---
  CMakeLists.txt | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 9c1798a..53ef651 100644
+index b6529bf..246afa7 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -202,4 +202,4 @@ include(CPack)
