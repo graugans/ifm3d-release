@@ -1,4 +1,4 @@
-From 1e00ae45560e9e6c8be0d83c946e5ff5ea7a874f Mon Sep 17 00:00:00 2001
+From 959d1989818bdc1e2218f1e1e67e4a1f8b62307f Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 13:33:50 -0500
 Subject: [PATCH 5/9] Fix botched merge -- disable tests, SDK, install
@@ -9,7 +9,7 @@ Subject: [PATCH 5/9] Fix botched merge -- disable tests, SDK, install
  1 file changed, 7 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 52c1403..5f545dd 100644
+index b2d222a..17b4f08 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -15,7 +15,7 @@ macro_ensure_out_of_source_build(

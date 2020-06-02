@@ -1,4 +1,4 @@
-From e9a3865d3ca30a1a9172e1a007ecd40311acb7d6 Mon Sep 17 00:00:00 2001
+From 53ebc6e4bfac546f94ab738283a12084b8d08aa1 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Thu, 12 Mar 2020 19:46:39 +0000
 Subject: [PATCH 4/9] Rebase from 'upstream'
@@ -9,7 +9,7 @@ Subject: [PATCH 4/9] Rebase from 'upstream'
  2 files changed, 2 insertions(+), 7 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index a027ae6..52c1403 100644
+index b6529bf..b2d222a 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -15,7 +15,7 @@ macro_ensure_out_of_source_build(

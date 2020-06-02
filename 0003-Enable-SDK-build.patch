@@ -1,4 +1,4 @@
-From 1d315dff319493d4b0c97aa5b65f4c867a663ead Mon Sep 17 00:00:00 2001
+From 628d77c7e0c6c19a879557c0e04673d37ea1a0b6 Mon Sep 17 00:00:00 2001
 From: Sean Kelly <Sean.Kelly@ifm.com>
 Date: Fri, 14 Feb 2020 14:59:04 -0500
 Subject: [PATCH 3/9] Enable SDK build
@@ -8,7 +8,7 @@ Subject: [PATCH 3/9] Enable SDK build
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 5f545dd..a027ae6 100644
+index 17b4f08..b6529bf 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -23,7 +23,7 @@ option(BUILD_MODULE_OPENCV "Build the OpenCV-only image container" OFF)
